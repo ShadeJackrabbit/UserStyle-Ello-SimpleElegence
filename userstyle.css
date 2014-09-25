@@ -1,0 +1,86 @@
+#streams {
+	background-image: url("http://subtlepatterns.com/patterns/old_map.png");
+  	margin-top: 24px;
+}
+
+.post {
+    background-color: #FFF;
+    box-shadow: 0px 0px 0px 10px #FFF;
+    box-sizing: content-box;
+    margin: none;
+    padding: none;
+    min-height: 60px;
+    margin-bottom: 50px !important;
+}
+  
+.post::before {
+	background-color: #DCA !important;
+}
+
+.editor__actions {
+  	bottom: -1rem;
+    height: 2.2rem !important;
+    padding-top: 0px;
+}
+  
+.editor__background {
+  	height: 14em;
+  	box-shadow: 0px 5px 5px #DDD;
+}
+  
+.postbar {
+	margin-top: 0 !important;
+  	margin-bottom: 0px !important;
+}
+
+.btn--ico {
+  	height: 1.5rem;
+}
+
+.btn--ico span {
+	line-height: 1.5rem;
+}
+  
+.btn--ico .svgicon {
+    height: 1.5rem;
+    right: 0.3rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, ol, ul, dl, .icon--mention, .icon--mention-direct, table, legend, .form__actions, .form__label, .avatar__actions, .postbar, .comment__actions, .comment__body, .wtf, .toolbar__group a, .authentication__login, .post, .login-btn, .logout-btn, .bio__counter {
+  	font-family: "Comfortaa";
+    font-size: 1em !important;
+}
+
+.toolbar__identity {
+  	display: none !important;
+}
+
+.toolbar__controls {
+  	width: 100%;
+}
+  
+.btn--tab:focus, .btn--tab:active, .no-touch .btn--tab:hover, .show-messages .drawer__tabs .btn--tab:nth-child(3), .friends--active .drawer__tabs .btn--tab:nth-child(1), .noise--active .drawer__tabs .btn--tab:nth-child(2), .btn--tab.active {
+	background-color: #444;
+}
+        
+.drawer, #toolbar {
+      background-image: url("http://subtlepatterns.com/patterns/tree_bark.png");
+}
+
+#toolbar {
+  box-shadow: 5px 0px 5px #DDD;
+}
+
+#omnibar {
+  box-shadow: 0px 10px 5px -5px #DDD;
+  z-index: 9000;
+  background-image: url("http://subtlepatterns.com/patterns/pixel_weave.png");
+}
+
+.editor, .editor__block, .editor__region {
+    background-color: white;
+}
+
+.comment__editor {
+  	font-size: 0.9em;
+}
