@@ -1,4 +1,4 @@
-Ello-UserStyle-SimpleElegence
+Ello - Simple Elegance (UserStyle)
 =============================
 
 A userstyle for the site Ello that adds a bit of panache and does away with a lot of the ultra-minimalism.
